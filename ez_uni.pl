@@ -266,17 +266,3 @@ sub miss{
 	print $fh "%%%$untxid\n";
 	close $fh;
 }
-
-
-#For outputting fasta from the edited files
-#sed 's/\%\%\%.*//' uL2.txt | sed 's/>.*\[/>uL2_/' | sed 's/\s/\_/g' | sed 's/\]//' | sed '/^$/d' | sed 's/candidatus_//i'
-
-
-
-
-
-
-
-
-
-
