@@ -17,7 +17,7 @@ WARNING: USES SEQUENCES FROM THE EFETCH RESULTS AS HASH IDS TO FILTER OUT REPEAT
 ALSO: REMOVES ANY RESULTS HAVING MITOCHONDRIAL, PLASTIDIC OR CHLOROPLAST IN THE NAME
 It doesn't output clean fasta, since it adds the txids as lines preceding the sequences for them, for clarity.
 <Add option to stop doing that>
-Usage:\n ./ez.pl -db [DATABASE] -prot [PROT NAME] -alt [FILTER PROT NAME] -in [FILE TXIDS] -h [HELP]
+Usage:\n ./ez_uni.pl -db [DATABASE] -prot [PROT NAME] -alt [FILTER PROT NAME] -in [FILE TXIDS] -h [HELP]
 -db\tSpecifies database from NCBI to be searched, I reccomend protein. REQUIRED
 -prot\tSpecifies protein name to be searched. Can be formatted as a query. REQUIRED
 \te.g. \"(term1+OR+term2)\"
